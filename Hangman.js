@@ -27,7 +27,7 @@ function hangman() {
     console.log(displayWord());
 
     if (!displayWord().includes("_")) {
-      console.log("Congratulations! You guessed the word.");
+      console.log("Congratulations! You guessed the word. :)");
       rl.close();
       return;
     }
