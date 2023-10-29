@@ -25,7 +25,7 @@ function rockPaperScissors() {
     ) {
       console.log("You win!");
     } else {
-      console.log("Computer wins!");
+      console.log("Computer wins! :)");
     }
 
     rl.close();
