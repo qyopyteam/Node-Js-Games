@@ -26,7 +26,7 @@ function guessTheNumber() {
           console.log("Lower!");
           makeGuess();
         } else {
-          console.log(`Congratulations! You guessed the number in ${attempts} attempts. :)`);
+          console.log(`Congratulations You guessed the number in ${attempts} attempts. :)`);
           rl.close();
         }
       }
